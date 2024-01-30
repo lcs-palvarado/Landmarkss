@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4792F07C2B6894C200994C3F /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792F07B2B6894C200994C3F /* Landmark.swift */; };
+		4792F07E2B68979700994C3F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792F07D2B68979700994C3F /* ListView.swift */; };
 		47D4789D2B68097400B364BD /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D4789C2B68097400B364BD /* LandmarksApp.swift */; };
 		47D478A12B68097900B364BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D478A02B68097900B364BD /* Assets.xcassets */; };
 		47D478A42B68097900B364BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D478A32B68097900B364BD /* Preview Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		4792F07B2B6894C200994C3F /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		4792F07D2B68979700994C3F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		47D478992B68097400B364BD /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D4789C2B68097400B364BD /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		47D478A02B68097900B364BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		47D478AA2B68112A00B364BD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4792F07D2B68979700994C3F /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4792F07E2B68979700994C3F /* ListView.swift in Sources */,
 				47D4789D2B68097400B364BD /* LandmarksApp.swift in Sources */,
 				47D478AC2B68117400B364BD /* DetailView.swift in Sources */,
 				4792F07C2B6894C200994C3F /* Landmark.swift in Sources */,
