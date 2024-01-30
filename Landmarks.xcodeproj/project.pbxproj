@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4792F07C2B6894C200994C3F /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792F07B2B6894C200994C3F /* Landmark.swift */; };
 		47D4789D2B68097400B364BD /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D4789C2B68097400B364BD /* LandmarksApp.swift */; };
 		47D478A12B68097900B364BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D478A02B68097900B364BD /* Assets.xcassets */; };
 		47D478A42B68097900B364BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D478A32B68097900B364BD /* Preview Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4792F07B2B6894C200994C3F /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		47D478992B68097400B364BD /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D4789C2B68097400B364BD /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		47D478A02B68097900B364BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4792F07A2B6817F900994C3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4792F07B2B6894C200994C3F /* Landmark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		47D478902B68097400B364BD = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				47D4789C2B68097400B364BD /* LandmarksApp.swift */,
+				4792F07A2B6817F900994C3F /* Model */,
 				47D478AA2B68112A00B364BD /* Views */,
 				47D478AB2B68117400B364BD /* DetailView.swift */,
 				47D478A02B68097900B364BD /* Assets.xcassets */,
@@ -147,6 +158,7 @@
 			files = (
 				47D4789D2B68097400B364BD /* LandmarksApp.swift in Sources */,
 				47D478AC2B68117400B364BD /* DetailView.swift in Sources */,
+				4792F07C2B6894C200994C3F /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
