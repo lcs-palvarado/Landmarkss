@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		479041622B69897A00A28390 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479041612B69897A00A28390 /* ListItemView.swift */; };
 		4792F07C2B6894C200994C3F /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792F07B2B6894C200994C3F /* Landmark.swift */; };
 		4792F07E2B68979700994C3F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792F07D2B68979700994C3F /* ListView.swift */; };
 		47D4789D2B68097400B364BD /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D4789C2B68097400B364BD /* LandmarksApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		479041612B69897A00A28390 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		4792F07B2B6894C200994C3F /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		4792F07D2B68979700994C3F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		47D478992B68097400B364BD /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				4792F07D2B68979700994C3F /* ListView.swift */,
+				479041612B69897A00A28390 /* ListItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479041622B69897A00A28390 /* ListItemView.swift in Sources */,
 				4792F07E2B68979700994C3F /* ListView.swift in Sources */,
 				47D4789D2B68097400B364BD /* LandmarksApp.swift in Sources */,
 				47D478AC2B68117400B364BD /* DetailView.swift in Sources */,
